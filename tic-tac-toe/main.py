@@ -14,7 +14,9 @@ def main():
         print ('zzz...')
         time.sleep(3)
         my_turn = my_turn = utils.is_my_turn(player_id)
+    
     print('continue in game')
+    print (my_turn)
 
 if __name__ == '__main__':
     main()
