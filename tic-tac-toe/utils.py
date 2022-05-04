@@ -1,4 +1,4 @@
 '''Utils module'''
 
-def register (name):
-    return true
+def register (name: str) -> str:
+    return True
