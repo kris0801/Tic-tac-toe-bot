@@ -6,5 +6,5 @@ def register (name: str) -> str:
 
 
 def is_my_turn(player_id: str)-> bool: 
-    my_turn = True
+    my_turn = False
     return my_turn
